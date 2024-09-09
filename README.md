@@ -19,7 +19,7 @@ This project is an image slider web application designed to showcase a collectio
 ## How to Use
 
 1. **Clone the repository**:
-   git clone https://github.com/yourusername/image-slider.git
+   git clone  https://github.com/Manik2188/Image-Slider-App.git
 
 2. **Open the project:**
     Navigate to the project directory.
