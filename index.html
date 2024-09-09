@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body onload="starttimer()" >
+    <div class="slider">
+        <header>
+            <div class="logo">ImageSlider</div>
+        </header>
+
+        <div class="list">
+            <div class="item">
+                <img id="s1" src="./img/11.jpg" alt="">
+
+                <div class="content">
+                    <div class="title">OUR EARTH</div>
+                    <div id="s2" class="type">NATURE</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbnail">
+            <div class="item">
+                <img src="./img/11.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="./img/12.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="./img/13.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="./img/14.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="./img/15.jpg" alt="">
+            </div>
+        </div>
+    
+        <div class="sliderbtn">
+            <button class="prev" onclick="left()">&#10094;</button>
+            <button class="next" onclick="right()">&#10095;</button>
+        </div>
+
+    </div>
+
+   <script src="/js/main.js"></script>
+</body>
+</html>
